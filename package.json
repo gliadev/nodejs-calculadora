@@ -1,14 +1,15 @@
 {
-    "name": "node-template",
+    "name": "nodejs-calculadora",
     "version": "1.0.0",
     "type": "module",
-    "description": "Plantilla base para desarrollo del curso NodeJs en la plataforma LearnThis Academy",
+    "description": "Primera practica",
     "scripts": {
         "dev": "nodemon src/index.js",
         "start": "node src/index.js",
         "lint": "eslint src/**/*.js --fix",
         "prettier": "prettier --write .",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "postinstall": "npm run prepare"
     },
     "author": "",
     "license": "ISC",
